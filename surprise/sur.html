@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday!</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Password Protection Section -->
+  <div id="password-protection">
+    <h2>Enter Password to Access the Surprise</h2>
+    <input type="password" id="password" placeholder="Enter your date of birth (DDMMYYYY)">
+    <button onclick="checkPassword()">Unlock</button>
+    <p id="error-message"></p>
+  </div>
+
+  <!-- Main Content Section -->
+  <div id="content" style="display: none;">
+    <h1>Happy Birthday, My Love!</h1>
+    <p>You are the most beautiful part of my life, and today is all about celebrating YOU!</p>
+
+    <!-- Photos Section -->
+    <div class="photos">
+      <h2>Special Memories</h2>
+      <img src="photo1.jpg" alt="Photo 1" class="photo-placeholder">
+      <img src="photo2.jpg" alt="Photo 2" class="photo-placeholder">
+      <!-- Add more photos here -->
+    </div>
+
+    <!-- Quotes Section -->
+    <div class="quotes">
+      <h2>Lovable Thoughts</h2>
+      <p>"You are my sunshine on cloudy days."</p>
+      <p>"Every moment with you is magical."</p>
+      <p>"I love you more than words can express."</p>
+    </div>
+
+    <!-- Decorative Flowers -->
+    <div class="flowers">
+      <h2>For You, My Flower</h2>
+      <div class="flower">&#127801;</div>
+      <div class="flower">&#127800;</div>
+      <div class="flower">&#127802;</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

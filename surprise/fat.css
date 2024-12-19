@@ -1,0 +1,83 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #ff9a9e, #fad0c4);
+  color: #333;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+
+h1, h2 {
+  color: #ff6f61;
+}
+
+/* Password Protection Section */
+#password-protection {
+  margin-top: 100px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e55a4f;
+}
+
+#error-message {
+  color: red;
+  font-size: 14px;
+}
+
+/* Main Content Section */
+#content {
+  margin-top: 50px;
+}
+
+/* Photos Section */
+.photos {
+  margin-top: 20px;
+}
+
+.photo-placeholder {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border: 2px solid #ff6f61;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* Quotes Section */
+.quotes {
+  margin-top: 20px;
+  font-style: italic;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Flowers Section */
+.flowers {
+  margin-top: 30px;
+}
+
+.flower {
+  font-size: 50px;
+  margin: 10px;
+  display: inline-block;
+}
